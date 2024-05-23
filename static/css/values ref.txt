@@ -1,0 +1,36 @@
+fonts:
+Inter
+Be Vietnam Pro
+Cabinet Grotesk - https://www.fontshare.com/fonts/cabinet-grotesk
+Neue Montreal - www.stellar.work
+
+not used:
+Luasanne-Regular - Apple font - propel.me
+San Francisco - 
+
+primary - #ebebeb
+secondary - #151515
+that light gray - #fcfcfa
+
+header
+background
+
+links - #9c9c9d
+
+
+
+black variants
+#0C0D0E
+#101214
+#1A1A1A
+
+greys
+#555555
+#878787
+for fonts - #cccccc
+Light grey
+#F7F7F7
+https://youtu.be/UmzFk68Bwdk?si=byUTz9ED_ZBhNBFK - scroll animations
+https://youtu.be/rg7Fvvl3taU?si=TPRrAGMXEKG1_b1x - grid layout
+
+

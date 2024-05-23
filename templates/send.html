@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/send.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="navi">
+            <a href="#" class="logo">Logo</a>
+            <nav class="navbar">
+                <a href="/">Home</a>
+                <a href="/home">Home2</a>
+                <a href="/instruction">Instruction</a>
+                <a href="/send">Send</a>
+                <a href="/receive">Receive</a>
+            </nav>
+            <div class="profile"></div>
+        </div>
+    </header>
+    <main>
+        <h1>Send Files</h1><br>
+        <form action="/send" method="post" enctype="multipart/form-data">
+            <input type="file" id="directory" name="directory" placeholder="Directory" webkitdirectory directory required><br><br>
+            
+            <input type="text" id="groupName" name="groupName" placeholder="Group name" required><br><br>
+            
+            <input type="text" id="receiversName" name="receiversName" placeholder="Receiver's Name" required><br><br>
+            <div class="input-submit">
+                <input type="submit" class="submit" value="Confirm">
+                <span></span>
+            </div>
+        </form>
+    </main>
+    <footer class="center">
+        footer
+    </footer>
+</body>
+</html>

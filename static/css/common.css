@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root{
+    --gradient:linear-gradient(
+                45deg,
+                hsl(168deg 100% 12%) 0%,
+                hsl(161deg 100% 16%) 13%,
+                hsl(152deg 80% 24%) 25%,
+                hsl(149deg 73% 33%) 33%,
+                hsl(146deg 66% 43%) 42%,
+                hsl(142deg 70% 54%) 50%,
+                hsl(142deg 77% 55%) 58%,
+                hsl(142deg 84% 56%) 67%,
+                hsl(141deg 92% 57%) 75%,
+                hsl(138deg 93% 72%) 83%,
+                hsl(140deg 95% 83%) 92%,
+                hsl(142deg 90% 92%) 100%
+    );
+}
+
+/* Header CSS */
+
+.header {
+    font-family: "Inter",sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.2rem 0;
+    background: transparent;
+    z-index: 100;
+    display: flex;
+    grid-template-rows: 24px auto;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 0.7rem 2.5rem;
+    width: 1204px;
+    min-height: 67px;
+    
+    background: linear-gradient(137deg, rgba(17, 18, 20, .75) 4.87%, rgba(12, 13, 15, .9) 75.88%);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--Card-Border, hsla(0, 0%, 100%, .06));
+    border-radius: 16px;
+    box-shadow: inset 0 1px 1px 0 hsla(0, 0%, 100%, .15);
+    transition: height .3s ease, transform .3s ease;
+    transform: translateZ(0);
+    will-change: height, transform
+}
+
+.logo{
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* ------------------------------------- */
+.navbar{
+    display: flex;
+    gap: 40px;
+}
+.navbar a{
+    position: relative;
+    font-size: 0.9125rem;
+    font-weight: 500;
+    text-decoration: none;
+    color:#9c9c9d;
+}
+.navbar a:hover{
+    color: rgb(255, 255, 255);
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: .3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+/* -------------------------------------- */
+.profile{
+    background-color: #00d992;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    width: 2.2rem;
+}
+/* -------------------------------------- */
+/* Footer css */
+footer{
+    background-color: #171718;
+    height:250px ;
+}
+
+/* -------------------------------------- */
+/* Utility classes */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

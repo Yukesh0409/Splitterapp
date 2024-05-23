@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* Neue Montreal */
+/* 800 */
+@font-face {
+    font-family: Neue Montreal;
+    src: url(/fonts/Neue_Montreal/OTF/PPNeueMontreal-Bold.otf);
+    font-weight: 800;
+}
+/* 500 */
+@font-face {
+  font-family: Neue Montreal;
+  src: url(/fonts/Neue_Montreal/OTF/PPNeueMontreal-Medium.otf);
+  font-weight:500;
+}
+/* 400 */
+@font-face {
+    font-family: Neue Montreal;
+    src: url(/fonts/Neue_Montreal/OTF/PPNeueMontreal-Book.otf);
+    font-weight: 400;
+}
+/* 200 */
+@font-face {
+    font-family: Neue Montreal;
+    src: url(/fonts/Neue_Montreal/OTF/PPNeueMontreal-Thin.otf);
+    font-weight:200;
+}
+/* italic */
+@font-face {
+    font-family: Neue Montreal;
+    src: url(/fonts/Neue_Montreal/OTF/PPNeueMontreal-Italic.otf);
+    font-style: italic;
+}
+/* italic 600 */
+@font-face {
+    font-family: Neue Montreal;
+    src: url(/fonts/Neue_Montreal/OTF/PPNeueMontreal-SemiBolditalic.otf);
+    font-weight:600;
+    font-style: italic;
+}
+/* ------------------------------------------------------------------- */
+/* Cabinet grotesk */
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: url(/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Black.otf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: url(/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Extrabold.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: url(/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: url(/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: url(/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: url(/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Light.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: url(/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Extralight.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: url(/fonts/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Thin.otf);
+  font-weight: 100;
+}
+/* ------------------------------------------------------------------- */
+/* font-family: "Be Vietnam Pro",sans-serif; */
+/* font-family: "Inter",sans-serif; */
+/* font-family: Cabinet Grotesk; */
+/* font-family: Neue Montreal; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    min-height: 100vh;
+    background-color: #07080a;
+    /* background: url() no-repeat;  */
+    /* background-position: center; */
+    /* background-size: cover; */
+    color: white;
+}
+
+
+.mainContainer{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+.button-container {
+    width: 45%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+button {
+    font-family: Cabinet Grotesk;
+    font-weight: 400;
+    border: none;
+    background-color: #ebebeb;
+    color: #151515;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 2.7rem;
+    /* font-weight: 500; */
+    padding: 0.4em 0.8em;
+    border-radius: 8px;
+}
+.separator {
+    /* border-left: 1px solid #ccc; */
+    border-left: 1px solid #919191;
+    height: 75%;
+}
+
+.material-icons.iconss{
+    font-size: 3.0rem;
+    color: #151515;
+}
+.inline-img p,
+.inline-img span {
+    display: inline;
+    vertical-align: middle; /* Align the image vertically with the text */
+}
